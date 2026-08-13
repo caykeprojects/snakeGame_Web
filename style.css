@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(135deg, #7713e3, #ac0909);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}   
+
+.containerGame{
+    background-color: rgba(255, 255, 255, 0.11);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.containerGame h1{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 24px;
+
+}
+
+canvas{
+    background-color: #000;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 4px solid #ce12e225;
+    border-radius: 10px;
+}   
+
+.score{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#restartButton{
+    background-color: #540b5c25;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+#restartButton:hover{
+    background-color: #cd12e24d;
+    
+}
